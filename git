@@ -10,4 +10,9 @@ git merge ---> when u merge a branch or file it will new commit id for every com
 git rebase --> it will give only one commit id for every commit for a particular file or branch
 git stash ---> when you want to jump from one directory to another in a middle of work u can use this and it will save the present working directory info for future necessity and give an empty directory.
 git stash drop ---> it will remove the stash information
+git diff ---> to compare the diff b/w two files
+git log <filename> --> it will give the logs of file
+git brnch ---> create a branch
+git checkout branchname ---> to jump over the another branch
+git checkout -b <branch name > --> to create a branch and directly checkout into that branch
 

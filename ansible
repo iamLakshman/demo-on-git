@@ -1,0 +1,13 @@
+---
+ - name : Demo on Git
+   hosts : all
+   become :
+
+   tasks :
+      - name : install ansible
+        yum :
+	 name : "{{item}}"
+	 state : latest
+        with_items :
+	    - ansible
+  	    - Python

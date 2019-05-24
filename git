@@ -47,3 +47,5 @@ git tag <commit ID> ----> to create a tag for a particuler commit
 git push origin <tag name> ---> to push a tag to remote branch
 
 git push origin --tags ----> to push all tags to remote branch
+
+git tag -d <tag name> ---> to delete a tag

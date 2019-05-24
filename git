@@ -37,3 +37,13 @@ git checkout branchname ---> to jump over the another branch
 git checkout -b <branch name > --> to create a branch and directly checkout into that branch
 
 git tag ---> to release a particuler version of software after completion of development
+
+git tag -a <name> -m "message" -----> to create a annotated tag
+
+git tag <name> ----> to create a light weight tag
+
+git tag <commit ID> ----> to create a tag for a particuler commit
+
+git push origin <tag name> ---> to push a tag to remote branch
+
+git push origin --tags ----> to push all tags to remote branch

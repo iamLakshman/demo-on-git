@@ -1,3 +1,7 @@
+Hi These are Git commands
+
+
+
 git init ---> to initialize an empty git repository
 
 git pull = git fetch + git merge ---> to pull the code into local repository
